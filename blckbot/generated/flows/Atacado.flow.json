@@ -1,0 +1,62 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "44d1f400ec",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-pxZzx4"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-3944fc"
+        }
+      ]
+    },
+    {
+      "id": "skill-3944fc",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-3944fc",
+      "flow": "skills/choice-3944fc.flow.json",
+      "next": [
+        {
+          "caption": "User picked [sim-ata...]",
+          "condition": "temp['skill-choice-ret-r73f9jcjx2'] == \"sim-atacado\"",
+          "node": "sim-continua-atacado"
+        },
+        {
+          "caption": "User picked [nao-ata...]",
+          "condition": "temp['skill-choice-ret-r73f9jcjx2'] == \"nao-atacado\"",
+          "node": "mensagem-tchau.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "367982c950",
+      "name": "sim-continua-atacado",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-6aaYoy"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "gqev33ibat",
+    "contentId": "builtin_single-choice-WjdrJx",
+    "invalidContentId": "",
+    "keywords": {
+      "rastreio": [
+        "rastreio",
+        "Código de Rastreio"
+      ],
+      "trocas": [
+        "trocas",
+        "Trocas & Devoluções"
+      ],
+      "reclamacao": [
+        "reclamacao",
+        "Reclamações"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-WjdrJx {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "102625"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"gqev33ibat\",\"contentId\":\"builtin_single-choice-WjdrJx\",\"invalidContentId\":\"\",\"keywords\":{\"rastreio\":[\"rastreio\",\"Código de Rastreio\"],\"trocas\":[\"trocas\",\"Trocas & Devoluções\"],\"reclamacao\":[\"reclamacao\",\"Reclamações\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-gqev33ibat'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "728155"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"gqev33ibat\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-gqev33ibat']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "450414"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "493413"
+    }
+  ]
+}

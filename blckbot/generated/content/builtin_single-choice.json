@@ -1,0 +1,256 @@
+[
+  {
+    "id": "builtin_single-choice-gzD1zZ",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Meu Pedido",
+          "value": "pedido"
+        },
+        {
+          "title": "Atacado",
+          "value": "atacado"
+        },
+        {
+          "title": "Private Label",
+          "value": "private"
+        },
+        {
+          "title": "Franquias",
+          "value": "franquias"
+        },
+        {
+          "title": "Dúvidas",
+          "value": "duvidas"
+        }
+      ],
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Como posso ajuda-lo?",
+      "text$pt": "Como posso ajuda-lo?",
+      "choices$pt": [
+        {
+          "title": "Meu Pedido",
+          "value": "pedido"
+        },
+        {
+          "title": "Atacado",
+          "value": "atacado"
+        },
+        {
+          "title": "Private Label",
+          "value": "private"
+        },
+        {
+          "title": "Franquias",
+          "value": "franquias"
+        },
+        {
+          "title": "Dúvidas",
+          "value": "duvidas"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T15:47:27.341Z",
+    "modifiedOn": "2021-09-11T13:21:53.876Z"
+  },
+  {
+    "id": "builtin_single-choice-WjdrJx",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Código de Rastreio",
+          "value": "rastreio"
+        },
+        {
+          "title": "Trocas & Devoluções",
+          "value": "trocas"
+        },
+        {
+          "title": "Reclamações",
+          "value": "reclamcao"
+        }
+      ],
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Escolha uma opção",
+      "text$pt": "Escolha uma opção",
+      "choices$pt": [
+        {
+          "title": "Código de Rastreio",
+          "value": "rastreio"
+        },
+        {
+          "title": "Trocas & Devoluções",
+          "value": "trocas"
+        },
+        {
+          "title": "Reclamações",
+          "value": "reclamacao"
+        }
+      ],
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T17:08:10.645Z",
+    "modifiedOn": "2021-09-13T16:00:43.154Z"
+  },
+  {
+    "id": "builtin_single-choice-vfCQYb",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Sim, Recebi!",
+          "value": "recebi"
+        },
+        {
+          "title": "Não Recebi!",
+          "value": "nao-recebi"
+        }
+      ],
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Você verificou seu e-mail?",
+      "text$pt": "Você verificou seu e-mail?",
+      "choices$pt": [
+        {
+          "title": "Sim, Recebi!",
+          "value": "recebi"
+        },
+        {
+          "title": "Não Recebi!",
+          "value": "nao"
+        }
+      ],
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T17:36:12.885Z",
+    "modifiedOn": "2021-09-13T00:20:41.306Z"
+  },
+  {
+    "id": "builtin_single-choice-DuUQ7P",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Sim",
+          "value": "sim"
+        },
+        {
+          "title": "Não, pode finalizar :)",
+          "value": "nao"
+        }
+      ],
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Posso ajudar em mais algo?",
+      "text$pt": "Posso ajudar em mais algo?",
+      "choices$pt": [
+        {
+          "title": "Sim",
+          "value": "sim-oq"
+        },
+        {
+          "title": "Não, pode finalizar :)",
+          "value": "nao-fim"
+        }
+      ],
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T18:16:19.843Z",
+    "modifiedOn": "2021-09-13T14:25:59.955Z"
+  },
+  {
+    "id": "builtin_single-choice-0-YSDt",
+    "formData": {
+      "choices$pt": [
+        {
+          "title": "Sim chegou",
+          "value": "sim"
+        },
+        {
+          "title": "Não chegou",
+          "value": "nao"
+        },
+        {
+          "title": "\"Aguardando Postagem\"",
+          "value": "aguardando"
+        }
+      ],
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Você conferiu se chegou no seu e-mail?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T14:24:21.435Z",
+    "modifiedOn": "2021-09-13T14:49:47.044Z"
+  },
+  {
+    "id": "builtin_single-choice-37U-sR",
+    "formData": {
+      "choices$pt": [
+        {
+          "title": "Sim",
+          "value": "sim-aguardei"
+        },
+        {
+          "title": "Não",
+          "value": "nao-aguardei"
+        }
+      ],
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Você aguardou o prazo de postagem de *2 dias úteis*?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T15:09:51.319Z",
+    "modifiedOn": "2021-09-13T15:09:51.319Z"
+  },
+  {
+    "id": "builtin_single-choice-dfjHwr",
+    "formData": {
+      "choices$pt": [
+        {
+          "title": "Sim",
+          "value": "sim-atacado"
+        },
+        {
+          "title": "Não",
+          "value": "nao-atacado"
+        }
+      ],
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Deseja continuar o atendimento?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:08:03.976Z",
+    "modifiedOn": "2021-09-13T16:08:03.976Z"
+  },
+  {
+    "id": "builtin_single-choice-gZxtTQ",
+    "formData": {
+      "choices$pt": [
+        {
+          "title": "Sim",
+          "value": "sim-private"
+        },
+        {
+          "title": "Não",
+          "value": "nao-private"
+        }
+      ],
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Deseja continuar?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:13:26.612Z",
+    "modifiedOn": "2021-09-13T16:13:26.612Z"
+  }
+]

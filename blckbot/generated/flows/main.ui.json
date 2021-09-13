@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": 115,
+        "y": 145
+      }
+    },
+    {
+      "id": "skill-1d3d97",
+      "position": {
+        "x": 430,
+        "y": 225
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "skill-1d3d97",
+      "points": [
+        {
+          "x": 321,
+          "y": 220
+        },
+        {
+          "x": 530,
+          "y": 218
+        }
+      ]
+    }
+  ]
+}

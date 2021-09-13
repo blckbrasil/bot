@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "skill-3a69cb",
+      "position": {
+        "x": 115,
+        "y": 105
+      }
+    },
+    {
+      "id": "4a9b3e3d64",
+      "position": {
+        "x": 575,
+        "y": 115
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "skill-3a69cb",
+      "sourcePort": "out1",
+      "target": "4a9b3e3d64",
+      "points": [
+        {
+          "x": 321,
+          "y": 178
+        },
+        {
+          "x": 675,
+          "y": 108
+        }
+      ]
+    },
+    {
+      "source": "skill-3a69cb",
+      "sourcePort": "out2",
+      "target": "4a9b3e3d64",
+      "points": [
+        {
+          "x": 321,
+          "y": 203
+        },
+        {
+          "x": 675,
+          "y": 108
+        }
+      ]
+    }
+  ]
+}

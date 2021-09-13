@@ -1,0 +1,62 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "4559757769",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-xI59x7"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-11991b"
+        }
+      ]
+    },
+    {
+      "id": "skill-11991b",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-11991b",
+      "flow": "skills/choice-11991b.flow.json",
+      "next": [
+        {
+          "caption": "User picked [sim-pri...]",
+          "condition": "temp['skill-choice-ret-2lirp5scxu'] == \"sim-private\"",
+          "node": "sim-private"
+        },
+        {
+          "caption": "User picked [nao-pri...]",
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "5bea8b86f5",
+      "name": "sim-private",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-i4mOuJ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

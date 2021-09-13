@@ -1,0 +1,65 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Primeira-escolha"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Ahq1L5"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-1d3d97",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Primeira-escolha",
+      "flow": "skills/choice-1d3d97.flow.json",
+      "next": [
+        {
+          "caption": "User picked [pedido]",
+          "condition": "temp['skill-choice-ret-d47kov67rq'] == \"pedido\"",
+          "node": "Meus-pedidos.flow.json"
+        },
+        {
+          "caption": "User picked [atacado]",
+          "condition": "temp['skill-choice-ret-d47kov67rq'] == \"atacado\"",
+          "node": "Atacado.flow.json"
+        },
+        {
+          "caption": "User picked [private]",
+          "condition": "temp['skill-choice-ret-d47kov67rq'] == \"private\"",
+          "node": "Private-label.flow.json"
+        },
+        {
+          "caption": "User picked [franqui...]",
+          "condition": "temp['skill-choice-ret-d47kov67rq'] == \"franquias\"",
+          "node": "franquias.flow.json"
+        },
+        {
+          "caption": "User picked [duvidas]",
+          "condition": "temp['skill-choice-ret-d47kov67rq'] == \"duvidas\"",
+          "node": "Duvidas.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

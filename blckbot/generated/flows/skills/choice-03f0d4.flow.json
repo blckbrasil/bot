@@ -1,0 +1,91 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "tts50vv352",
+    "contentId": "builtin_single-choice-0-YSDt",
+    "invalidContentId": "",
+    "keywords": {
+      "sim": [
+        "sim",
+        "Sim chegou"
+      ],
+      "nao": [
+        "nao",
+        "Não chegou"
+      ],
+      "aguardando": [
+        "aguardando",
+        "\"Aguardando Postagem\""
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-0-YSDt {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "375882"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"tts50vv352\",\"contentId\":\"builtin_single-choice-0-YSDt\",\"invalidContentId\":\"\",\"keywords\":{\"sim\":[\"sim\",\"Sim chegou\"],\"nao\":[\"nao\",\"Não chegou\"],\"aguardando\":[\"aguardando\",\"\\\"Aguardando Postagem\\\"\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-tts50vv352'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "565953"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"tts50vv352\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-tts50vv352']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "460686"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "922384"
+    }
+  ]
+}
