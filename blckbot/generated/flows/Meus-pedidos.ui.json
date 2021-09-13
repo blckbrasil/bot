@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "f03ac17ecc",
+      "position": {
+        "x": -15,
+        "y": 70
+      }
+    },
+    {
+      "id": "skill-c6b164",
+      "position": {
+        "x": 265,
+        "y": 170
+      }
+    },
+    {
+      "id": "d5ed2fd7da",
+      "position": {
+        "x": 555,
+        "y": 50
+      }
+    },
+    {
+      "id": "e48f84b844",
+      "position": {
+        "x": 775,
+        "y": 255
+      }
+    },
+    {
+      "id": "skill-03f0d4",
+      "position": {
+        "x": 835,
+        "y": 60
+      }
+    },
+    {
+      "id": "8947792ebd",
+      "position": {
+        "x": 1165,
+        "y": 20
+      }
+    },
+    {
+      "id": "6e340dd1d4",
+      "position": {
+        "x": 1130,
+        "y": 275
+      }
+    },
+    {
+      "id": "skill-cdfd9e",
+      "position": {
+        "x": 1270,
+        "y": 140
+      }
+    },
+    {
+      "id": "7f6c71b959",
+      "position": {
+        "x": 1615,
+        "y": 315
+      }
+    },
+    {
+      "id": "cac13487a0",
+      "position": {
+        "x": 1665,
+        "y": 30
+      }
+    },
+    {
+      "id": "4607b00596",
+      "position": {
+        "x": 475,
+        "y": 345
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "d5ed2fd7da",
+      "sourcePort": "out0",
+      "target": "skill-03f0d4",
+      "points": [
+        {
+          "x": 761,
+          "y": 161
+        },
+        {
+          "x": 934,
+          "y": 53
+        }
+      ]
+    },
+    {
+      "source": "f03ac17ecc",
+      "sourcePort": "out0",
+      "target": "skill-c6b164",
+      "points": [
+        {
+          "x": 191,
+          "y": 145
+        },
+        {
+          "x": 365,
+          "y": 163
+        }
+      ]
+    },
+    {
+      "source": "skill-03f0d4",
+      "sourcePort": "out2",
+      "target": "6e340dd1d4",
+      "points": [
+        {
+          "x": 1041,
+          "y": 158
+        },
+        {
+          "x": 1230,
+          "y": 268
+        }
+      ]
+    },
+    {
+      "source": "skill-03f0d4",
+      "sourcePort": "out0",
+      "target": "8947792ebd",
+      "points": [
+        {
+          "x": 1041,
+          "y": 108
+        },
+        {
+          "x": 1264,
+          "y": 13
+        }
+      ]
+    },
+    {
+      "source": "skill-03f0d4",
+      "sourcePort": "out1",
+      "target": "skill-cdfd9e",
+      "points": [
+        {
+          "x": 1041,
+          "y": 133
+        },
+        {
+          "x": 1370,
+          "y": 133
+        }
+      ]
+    },
+    {
+      "source": "skill-c6b164",
+      "sourcePort": "out2",
+      "target": "4607b00596",
+      "points": [
+        {
+          "x": 471,
+          "y": 268
+        },
+        {
+          "x": 575,
+          "y": 338
+        }
+      ]
+    },
+    {
+      "source": "skill-c6b164",
+      "sourcePort": "out0",
+      "target": "d5ed2fd7da",
+      "points": [
+        {
+          "x": 471,
+          "y": 218
+        },
+        {
+          "x": 655,
+          "y": 43
+        }
+      ]
+    },
+    {
+      "source": "skill-c6b164",
+      "sourcePort": "out1",
+      "target": "e48f84b844",
+      "points": [
+        {
+          "x": 471,
+          "y": 243
+        },
+        {
+          "x": 875,
+          "y": 248
+        }
+      ]
+    },
+    {
+      "source": "skill-c6b164",
+      "sourcePort": "out3",
+      "target": "e48f84b844",
+      "points": [
+        {
+          "x": 471,
+          "y": 293
+        },
+        {
+          "x": 875,
+          "y": 248
+        }
+      ]
+    },
+    {
+      "source": "skill-cdfd9e",
+      "sourcePort": "out1",
+      "target": "7f6c71b959",
+      "points": [
+        {
+          "x": 1476,
+          "y": 213
+        },
+        {
+          "x": 1714,
+          "y": 308
+        }
+      ]
+    },
+    {
+      "source": "skill-cdfd9e",
+      "sourcePort": "out0",
+      "target": "cac13487a0",
+      "points": [
+        {
+          "x": 1476,
+          "y": 188
+        },
+        {
+          "x": 1764,
+          "y": 23
+        }
+      ]
+    }
+  ]
+}

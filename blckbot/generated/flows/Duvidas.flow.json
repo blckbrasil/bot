@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "84a66eee85",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-qx99fG"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ]
+    }
+  ]
+}

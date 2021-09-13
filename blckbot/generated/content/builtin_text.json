@@ -1,0 +1,275 @@
+[
+  {
+    "id": "builtin_text-Ahq1L5",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Olá, eu sou o BlckBot, vou te auxiliar por aqui.",
+      "text$pt": "Olá, eu sou o <strong>BlckBot</strong>, vou te auxiliar por aqui.",
+      "markdown$pt": true,
+      "typing$pt": true,
+      "variations$pt": [
+        "Olá, tudo bem!?",
+        "Oi, como vai?",
+        "Oi, tudo bem? "
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T15:44:41.070Z",
+    "modifiedOn": "2021-09-13T16:33:30.837Z"
+  },
+  {
+    "id": "builtin_text-okIZio",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Ok, vamos falar sobre o seu pedido.",
+      "variations$en": [
+        "Certo, vamos falar sobre o seu pedido"
+      ],
+      "text$pt": "Ok, vamos falar sobre o seu pedido.",
+      "variations$pt": [
+        "Certo, vamos falar sobre o seu pedido"
+      ],
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T15:59:34.000Z",
+    "modifiedOn": "2021-09-11T13:21:53.828Z"
+  },
+  {
+    "id": "builtin_text-P8X1yJ",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "<p>Os códigos de rastreios são <strong>enviados pelos Correios automaticamente via e-mail.</strong></p>\n\n<p>\nCaso você tenha feito uma compra, provavelmente você recebeu essa rastreio lá <strong>no e-mail cadastrado</strong>.\n</p>\n\nVocê verificou seu e-mail, inclusive o spam?",
+      "text$pt": "<p>Os códigos de rastreios são <strong>enviados pelos Correios automaticamente via e-mail.</strong></p>\n\n<p>Provavelmente você recebeu o rastreio lá <strong>no e-mail cadastrado</strong>.\n</p>\n\n<p>Caso tenha recebido seu código de rastreio e consta como \"Aguardando Postagem\", pedimos que <strong>aguarde cerca de 24h úteis para que os correios atualizem o sistema!</strong></p>",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T17:25:39.994Z",
+    "modifiedOn": "2021-09-13T14:43:27.372Z"
+  },
+  {
+    "id": "builtin_text-nbmPL2",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Então fechou :)",
+      "variations$en": [
+        "Opa, então está tudo certinho ;)",
+        "Beleza, agora é só você copiar o código de rastreio e inserir no site dos correios :)"
+      ],
+      "text$pt": "Então fechou :)",
+      "variations$pt": [
+        "Opa, então está tudo certinho ;)",
+        "Beleza, agora é só você copiar o código de rastreio e inserir no site dos correios :)"
+      ],
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T17:43:10.094Z",
+    "modifiedOn": "2021-09-11T13:21:53.850Z"
+  },
+  {
+    "id": "builtin_text-1K0T5a",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "<p>Talvez, seu pedido ainda não tenha sido enviado.</p>\nMais por via de dúvidas, vou te mandar um link, daí você nós chama no WhatsApp beleza?",
+      "text$pt": "<p>Talvez, seu pedido ainda não tenha sido enviado.</p>\nMais por via de dúvidas, vou te mandar um link, daí você nós chama no WhatsApp beleza?",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T18:28:44.363Z",
+    "modifiedOn": "2021-09-11T13:21:53.861Z"
+  },
+  {
+    "id": "builtin_text-S90K1j",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "<p>Ok, você quer falar sobre <strong>Trocas & Devoluções</strong></p>\n\n<p>Para fazer a troca do seu pedido/produto, você precisará nos enviar um e-mail através de um formulário ok?</p>\n\n<p>Vou te mandar o link!</p>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T14:16:56.600Z",
+    "modifiedOn": "2021-09-13T15:52:47.206Z"
+  },
+  {
+    "id": "builtin_text-Ial5tq",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Posso ajudar em mais alguma coisa?",
+      "variations$pt": [
+        "Tudo certo? Posso ajudar em algo mais?",
+        "Blz, posso ajudar em mais alguma coisa?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T14:35:34.180Z",
+    "modifiedOn": "2021-09-13T14:35:34.180Z"
+  },
+  {
+    "id": "builtin_text-a8RWB-",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Perfeito.\n<p>A Blck Brasil agradece seu contato!</p>",
+      "variations$pt": [
+        "Ok. <p>Quaisquer dúvidas, estamos por aqui!</p>"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T14:38:28.770Z",
+    "modifiedOn": "2021-09-13T14:38:28.770Z"
+  },
+  {
+    "id": "builtin_text-bB-KlE",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Ok!\n<p>Provavelmente você está vendo essa mensagem \"Aguardando Postagem\" por um de dois motivos:<br />\n1 - Os Correios ainda não atualizou o status;<br />\n2 - Seu pedido ainda não foi postado por divergência.<br />\n</p>\n\n<p>No primeiro dos casos, você precisa aguardar cerca de 24h úteis até que os correios atualizem o sistema deles.</p>\n\nJá no segundo, pôde ter havido alguma divergência nas informações ou falta deles no processo de liberação. <br />\nMais não se preocupe, vamos entrar em contato contigo para resolver."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T14:53:29.707Z",
+    "modifiedOn": "2021-09-13T15:03:59.642Z"
+  },
+  {
+    "id": "builtin_text-Lu_sqz",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Sem problemas ;)\n<p>Você só precisa aguardar o prazo de 2 dias úteis. Se após esse prazo, continuar aparecendo a mensagem para você, nos chame aqui ok?</p>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T15:11:48.849Z",
+    "modifiedOn": "2021-09-13T15:11:48.849Z"
+  },
+  {
+    "id": "builtin_text-J8-79c",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Ok, vamos te mandar um link para falar com um Humano!\n<p><a href=\"https://bit.ly/blckwhatsapp\">Clique aqui</a></p>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T15:34:43.713Z",
+    "modifiedOn": "2021-09-13T15:34:43.713Z"
+  },
+  {
+    "id": "builtin_text-5lP8Zk",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Qualquer dúvida estou por aqui!"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T15:36:18.437Z",
+    "modifiedOn": "2021-09-13T15:36:18.437Z"
+  },
+  {
+    "id": "builtin_text-d6ZYt4",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "<p><a href=\"https://www.blckbrasil.com.br/contato\">Clique aqui</a></p>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T15:54:26.501Z",
+    "modifiedOn": "2021-09-13T15:54:26.501Z"
+  },
+  {
+    "id": "builtin_text-i4zwkk",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "<p>Beleza, você quer fazer uma reclamação :/</p>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T15:57:33.360Z",
+    "modifiedOn": "2021-09-13T15:57:33.360Z"
+  },
+  {
+    "id": "builtin_text-SOFP9N",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "<p>Para fazer sua reclamação, clique no botão abaixo:</p>\n<a href=\"https://www.blckbrasil.com.br/contato\">Reclamar</a>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T15:58:30.539Z",
+    "modifiedOn": "2021-09-13T15:58:30.539Z"
+  },
+  {
+    "id": "builtin_text-pxZzx4",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Opa, vocêr quer ser um <strong>revendedor Blck Brasil</strong>!\n<p></p>\nAntes de iniciar o processo de vendas faremos uma análise de perfil e região da loja, pois trabalhamos com limite de km de um cliente para o outro. \n<p></p>\n<strong>Requisitos:</strong>\n- Possuir loja física com CNPJ;\n- Minimo de 25 peças;\n- Não ser e-Commerce;\n- Não vender em Marketplaces;"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:04:23.849Z",
+    "modifiedOn": "2021-09-13T16:06:56.324Z"
+  },
+  {
+    "id": "builtin_text-6aaYoy",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Ótimo ;)\n<p></p>\nVou te mandar as o WhatApp direto de um de nossos consultores:\n<p></p>\n<a href=\"#\">Falar com consultor!</a>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:10:11.432Z",
+    "modifiedOn": "2021-09-13T16:10:11.432Z"
+  },
+  {
+    "id": "builtin_text-xI59x7",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Private Label é para você que tem interesse em <strong>personalizar nossos bonés com sua marca</strong>!\n<p></p>\nPara fazer essa parceria, você precisa obedecer alguns requisitos mínimos:\n - Mínimo 100 unidades;\n - 1 Arte;\n - 4 cores (25 por cor)."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:12:53.022Z",
+    "modifiedOn": "2021-09-13T16:12:53.022Z"
+  },
+  {
+    "id": "builtin_text-i4mOuJ",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Show!<br />\nVou passar o contato do Gabriel, ele irá atende-lo(a)!\n<p></p>\n<a href=\"#\">Clique aqui</a>",
+      "variations$pt": []
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:15:25.314Z",
+    "modifiedOn": "2021-09-13T16:16:22.405Z"
+  },
+  {
+    "id": "builtin_text-A4P1mP",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Você quer ser um Franqueado da maior marca de bonés do Brasil?\n<p></p>\nÉ muito símples, basta preencher o formulário no link que eu vou te mandar, e aguardar nosso representante te ligar :)\n<p></p>\n<a href=\"https://www.blckbrasil.com.br/seja-franqueado-blck\">Clique aqui</a>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:24:48.530Z",
+    "modifiedOn": "2021-09-13T16:24:48.530Z"
+  },
+  {
+    "id": "builtin_text-qx99fG",
+    "formData": {
+      "markdown$pt": true,
+      "typing$pt": true,
+      "text$pt": "Para facilitar, fizemos uma página com todas as dúvidas mais frequentes de nossos clientes, lá você encontra de maneira fácil e rápida a resposta para sua dúvida.\n<p></p>\n<a href=\"https://www.blckbrasil.com.br/faq\">Clique aqui</a>"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T16:30:18.864Z",
+    "modifiedOn": "2021-09-13T16:30:18.864Z"
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "f03ac17ecc",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-okIZio"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "escolha"
+        }
+      ]
+    },
+    {
+      "id": "skill-c6b164",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "escolha",
+      "flow": "skills/choice-c6b164.flow.json",
+      "next": [
+        {
+          "caption": "User picked [rastreio]",
+          "condition": "temp['skill-choice-ret-gqev33ibat'] == \"rastreio\"",
+          "node": "Mensagem"
+        },
+        {
+          "caption": "User picked [trocas]",
+          "condition": "temp['skill-choice-ret-gqev33ibat'] == \"trocas\"",
+          "node": "Trocas"
+        },
+        {
+          "caption": "User picked [reclama...]",
+          "condition": "temp['skill-choice-ret-gqev33ibat'] == \"reclamacao\"",
+          "node": "reclamar"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "Trocas"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "d5ed2fd7da",
+      "name": "Mensagem",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Chegou_ou_nao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-P8X1yJ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e48f84b844",
+      "name": "Trocas",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-S90K1j",
+        "say #!builtin_text-d6ZYt4"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-03f0d4",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Chegou_ou_nao",
+      "flow": "skills/choice-03f0d4.flow.json",
+      "next": [
+        {
+          "caption": "User picked [sim]",
+          "condition": "temp['skill-choice-ret-tts50vv352'] == \"sim\"",
+          "node": "Mensagem_ok"
+        },
+        {
+          "caption": "User picked [nao]",
+          "condition": "temp['skill-choice-ret-tts50vv352'] == \"nao\"",
+          "node": "aguardou"
+        },
+        {
+          "caption": "User picked [aguarda...]",
+          "condition": "temp['skill-choice-ret-tts50vv352'] == \"aguardando\"",
+          "node": "node-03f2"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "8947792ebd",
+      "name": "Mensagem_ok",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-nbmPL2"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6e340dd1d4",
+      "name": "node-03f2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bB-KlE"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-cdfd9e",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "aguardou",
+      "flow": "skills/choice-cdfd9e.flow.json",
+      "next": [
+        {
+          "caption": "User picked [sim-agu...]",
+          "condition": "temp['skill-choice-ret-b78brde0dw'] == \"sim-aguardei\"",
+          "node": "aguardei-sim"
+        },
+        {
+          "caption": "User picked [nao-agu...]",
+          "condition": "temp['skill-choice-ret-b78brde0dw'] == \"nao-aguardei\"",
+          "node": "node-6513"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "7f6c71b959",
+      "name": "node-6513",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Lu_sqz"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "cac13487a0",
+      "name": "aguardei-sim",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-J8-79c",
+        "say #!builtin_text-5lP8Zk"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4607b00596",
+      "name": "reclamar",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mensagem-tchau.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-i4zwkk",
+        "say #!builtin_text-SOFP9N"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

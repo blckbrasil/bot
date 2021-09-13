@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "4559757769",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "skill-11991b",
+      "position": {
+        "x": 435,
+        "y": 215
+      }
+    },
+    {
+      "id": "5bea8b86f5",
+      "position": {
+        "x": 830,
+        "y": 125
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "4559757769",
+      "sourcePort": "out0",
+      "target": "skill-11991b",
+      "points": [
+        {
+          "x": 306,
+          "y": 211
+        },
+        {
+          "x": 535,
+          "y": 208
+        }
+      ]
+    },
+    {
+      "source": "skill-11991b",
+      "sourcePort": "out0",
+      "target": "5bea8b86f5",
+      "points": [
+        {
+          "x": 641,
+          "y": 263
+        },
+        {
+          "x": 930,
+          "y": 118
+        }
+      ]
+    }
+  ]
+}

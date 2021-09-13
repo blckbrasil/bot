@@ -1,0 +1,42 @@
+[
+  {
+    "id": "builtin_card-c7NaP2",
+    "formData": {
+      "title$en": "WhatsApp",
+      "actions$en": [
+        {
+          "action": "Open URL",
+          "url": "https://bit.ly/blckwhatsapp",
+          "title": "WhatsApp"
+        }
+      ],
+      "title$pt": "WhatsApp",
+      "actions$pt": [
+        {
+          "action": "Open URL",
+          "url": "https://bit.ly/blckwhatsapp",
+          "title": "WhatsApp"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-10T18:29:31.020Z",
+    "modifiedOn": "2021-09-11T13:21:53.928Z"
+  },
+  {
+    "id": "builtin_card-QqhaSm",
+    "formData": {
+      "actions$pt": [
+        {
+          "action": "Open URL",
+          "title": "Clique aqui",
+          "url": "https://www.blckbrasil.com.br/contato"
+        }
+      ],
+      "title$pt": "Vou te mandar o link para você preencher o formulário!"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-13T14:22:08.493Z",
+    "modifiedOn": "2021-09-13T14:22:08.493Z"
+  }
+]

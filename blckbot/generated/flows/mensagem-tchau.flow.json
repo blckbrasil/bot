@@ -1,0 +1,43 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "choice-3a69cb",
+  "nodes": [
+    {
+      "id": "skill-3a69cb",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-3a69cb",
+      "flow": "skills/choice-3a69cb.flow.json",
+      "next": [
+        {
+          "caption": "User picked [sim-oq]",
+          "condition": "temp['skill-choice-ret-p261twnz9d'] == \"sim-oq\"",
+          "node": "main.flow.json"
+        },
+        {
+          "caption": "User picked [nao-fim]",
+          "condition": "temp['skill-choice-ret-p261twnz9d'] == \"nao-fim\"",
+          "node": "node-791c"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "node-791c"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "4a9b3e3d64",
+      "name": "node-791c",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-a8RWB-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
